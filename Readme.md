@@ -11,17 +11,20 @@ deno install -A -f -n <COMMAND> --importmap=https://raw.githubusercontent.com/mi
 ## Tools
 
 ```
-# Tool to manage servers
+# servers: Tool to manage servers
 deno install -A -f -n servers --importmap=https://raw.githubusercontent.com/minioin/utils-deno/release/importmap.json https://raw.githubusercontent.com/minioin/utils-deno/release/bin/servers.ts
 
-# Wrapper for gradle wrapper
+# gw: Wrapper for gradle wrapper
 deno install -A -f -n gw --importmap=https://raw.githubusercontent.com/minioin/utils-deno/release/importmap.json https://raw.githubusercontent.com/minioin/utils-deno/release/bin/gw.ts
 
-# Getpocket client
+# getpocket: Getpocket client
 deno install -A -f -n getpocket --importmap=https://raw.githubusercontent.com/minioin/utils-deno/release/importmap.json https://raw.githubusercontent.com/minioin/utils-deno/release/bin/getpocket.ts
 
-# Github release installer
+# ghrelease: Github release installer
 deno install -A -f --unstable -n ghrelease --importmap=https://raw.githubusercontent.com/minioin/utils-deno/release/importmap.json https://raw.githubusercontent.com/minioin/utils-deno/release/bin/ghrelease.ts
+
+# mergeyaml: Merge yaml files
+deno install -A -f --unstable --importmap=https://raw.githubusercontent.com/minioin/utils-deno/release/importmap.json https://raw.githubusercontent.com/minioin/utils-deno/release/bin/mergeyaml.ts
 ```
 
 ## License

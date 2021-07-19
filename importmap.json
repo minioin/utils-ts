@@ -7,6 +7,7 @@
     "exec": "https://deno.land/x/exec/mod.ts",
     "fs/": "https://deno.land/std/fs/",
     "fuse": "https://cdn.jsdelivr.net/npm/fuse.js@6.4.6/dist/fuse.esm.js",
+    "lodash": "https://x.nest.land/deno-lodash@1.0.0/mod.ts",
     "http/": "https://deno.land/std/http/",
     "opn": "https://denopkg.com/hashrock/deno-opn/opn.ts",
     "path/": "https://deno.land/std/path/",
